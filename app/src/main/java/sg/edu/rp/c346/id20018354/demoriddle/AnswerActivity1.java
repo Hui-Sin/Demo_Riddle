@@ -13,6 +13,7 @@ public class AnswerActivity1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_answer1);
+        Log.d("AnswerActivity1", "onCreate() called.");
         tvAnswer = findViewById(R.id.textViewAns1);
 
         //tvAnswer.setText("In Answer Activity 1");
