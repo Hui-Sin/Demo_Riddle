@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         btnrevealQ2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,AnswerActivity1.class);
+                Intent intent=new Intent(MainActivity.this,AnswerActivity2.class);
                 intent.putExtra("Question2", "Q2");
                 startActivity(intent);
             }
