@@ -12,7 +12,7 @@ public class AnswerActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_answer2);
-        tvAnswer2=findViewById(R.id.textView2);
+        tvAnswer2=findViewById(R.id.textViewAns2);
         Intent intentReceived = getIntent();
         String questionsSelected = intentReceived.getStringExtra("Question2");
         tvAnswer2.setText(questionsSelected + " answer is: Gone");
