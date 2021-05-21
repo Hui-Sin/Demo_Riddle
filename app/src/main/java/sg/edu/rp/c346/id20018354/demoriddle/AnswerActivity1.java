@@ -13,6 +13,7 @@ public class AnswerActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_answer1);
         tvAnswer=findViewById(R.id.textViewAns1);
+
         //tvAnswer.setText("In Answer Activity 1");
         Intent intentReceived = getIntent();
         String questionsSelected = intentReceived.getStringExtra("Question");
